@@ -1,0 +1,139 @@
+/* === Tema Pastel Cinnamonroll yang lebih hidup === */
+body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(to bottom right, #fdfcff, #ffe8f0, #b6e3ff);
+    color: #5b5b5b;
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+}
+
+header {
+    text-align: center;
+    background: linear-gradient(to bottom, #b6e3ff, #ffe8f0);
+    padding: 40px 10px;
+    border-bottom: 4px solid #ffcde1;
+    box-shadow: 0 4px 12px rgba(255, 188, 208, 0.4);
+}
+
+.logo {
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+h1 {
+    color: #3c8dbc;
+    font-size: 2.8em;
+    margin: 10px 0;
+    text-shadow: 2px 2px 4px #ffffffaa;
+}
+
+.tagline {
+    color: #7a7a7a;
+    font-style: italic;
+    font-size: 1.1em;
+}
+
+.menu-section {
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.75);
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(182, 227, 255, 0.3);
+}
+
+h2 {
+    color: #ff96b5;
+    border-bottom: 2px solid #ffbcd0;
+    padding-bottom: 8px;
+    font-size: 1.5em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th {
+    background-color: #ffe8f0;
+    color: #3c8dbc;
+    text-align: left;
+    padding: 10px;
+}
+
+td {
+    border: 1px solid #ffd6e7;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #fff7fb;
+}
+
+tr:hover {
+    background-color: #e3f5ff;
+    transform: scale(1.01);
+    transition: all 0.3s ease;
+}
+
+/* === Form === */
+.order-form {
+    background-color: rgba(255, 250, 255, 0.8);
+    padding: 30px;
+    margin: 30px;
+    border-radius: 20px;
+    border: 2px dashed #ffbcd0;
+    box-shadow: 0 0 12px rgba(182, 227, 255, 0.4);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+input, textarea {
+    border: 2px solid #ffd6e7;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1em;
+    background-color: #ffffffcc;
+    transition: 0.3s;
+}
+
+input:focus, textarea:focus {
+    border-color: #b6e3ff;
+    box-shadow: 0 0 10px #b6e3ff80;
+    background-color: #ffffff;
+}
+
+button {
+    background: linear-gradient(to right, #ffbcd0, #b6e3ff);
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 12px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(255, 188, 208, 0.6);
+}
+
+/* === Footer === */
+footer {
+    text-align: center;
+    background-color: #b6e3ff;
+    padding: 20px;
+    color: #4e4e4e;
+    font-size: 0.9em;
+    border-top: 4px solid #ffbcd0;
+    box-shadow: 0 -3px 10px rgba(255, 188, 208, 0.3);
+}
